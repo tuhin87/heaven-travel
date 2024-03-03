@@ -9,6 +9,7 @@
 body {
     font-family: "Mulish", sans-serif;
 
+
 }
 
 main,
@@ -19,6 +20,7 @@ main,
     padding-top: 50px;
     padding-right: 70px;
     gap: 150px;
+
 }
 
 /* -------Nav style----- */
@@ -220,22 +222,53 @@ h2 {
 }
 
 .promo {
-    
+
     width: 50%;
     margin-left: 150px;
 }
 
 .save {
-
+    position: relative;
     width: 324px;
     height: 120px;
-    left: 2560px;
-    right: -2060px;
-    top: 6524.84px;
-    bottom: -6350px;
+    bottom: 170px;
+    left: 340px;
     transform: rotate(-20deg);
     border-radius: 16px;
     background: rgb(255, 84, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.promo-title {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.promo-details {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 800;
+    
+}
+
+/* --------footer section style-------- */
+.footer-container {
+    color: #1313180D;
+    position: relative;
+    margin-top: 2000px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+
+.footer-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 
